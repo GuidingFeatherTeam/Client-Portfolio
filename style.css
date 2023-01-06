@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('assets/font/BebasNeue-Regular.woff');
+	src: url('assets/font/BebasNeue-Regular.woff2') format('embedded-opentype'),
+		url('assets/font/BebasNeue-Regular.woff') format('woff'),
+		url('assets/font/BebasNeue-Regular.woff') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.noway {
+    font-family: 'Courier New', Courier, monospace;
+}
