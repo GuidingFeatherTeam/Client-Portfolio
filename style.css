@@ -8,12 +8,98 @@
 	font-style: normal;
 }
 
+body {
+	background-image: url(assets/img/back/sfondo\ piume.png);
+	background-size: cover;
+}
+
 * {
     font-family: 'Bebas Neue';
     font-weight: normal;
     font-style: normal;
 }
 
-.noway {
-    font-family: 'Courier New', Courier, monospace;
+nav {
+	position: fixed;
+	background-color: rgba(80, 34, 245, 0.979);
+	font-size: 70px;
+}
+
+.rel {
+	position: relative;
+}
+
+.ri {
+	position: absolute;
+	right: 20px;
+	box-sizing: border-box;
+	top: 8px;
+}
+
+li {
+	display: inline-block;
+	border-right: 2px solid white;
+	padding-right: 2px;
+}
+
+ul:last-child {
+	border: none;
+}
+
+/* Media query standard trovate su internet */
+
+@media screen and (max-width: 1820px) {
+	h1 {
+	  color: rgb(255, 145, 0);
+	}
+
+	nav {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	h1 {
+	  color: green;
+	}
+
+	nav {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	ul {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	h1 {
+	  color: purple;
+	}
+
+	nav {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	h1 {
+	  color: cyan;
+	}
+
+	nav {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+	  color: yellowgreen;
+	}
+
+	nav {
+		font-size: 10px;
+	}
 }
