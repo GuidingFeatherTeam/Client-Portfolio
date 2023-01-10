@@ -10,8 +10,9 @@
 
 
 body {
-	background-image: url(assets/img/back/sfondo\ piume\ copy.png);
-	background-size: 300px;
+	background-image: url(assets/img/back/sfondo_piume_Wix.webp);
+	background-size: contain;
+	background-attachment: fixed;
 	height: 5000px;
 }
 
