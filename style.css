@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: 'Bebas Neue';
 	src: url('assets/font/BebasNeue-Regular.woff');
@@ -8,24 +9,82 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Coolvetica Regular';
+    src: url('assets/font/coolvetica\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica Regular It';
+    src: url('assets/font/coolvetica\ rg\ it.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica Condensed Regular';
+    src: url('assets/font/coolvetica\ condensed\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica Compressed Regular';
+    src: url('assets/font/coolvetica\ compressed\ hv.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica Crammed Regular';
+    src: url('assets/font/coolvetica\ crammed\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.bbn-font {
+	font-family: 'Bebas Neue';
+}
+
+.clv-rg-font {
+	font-family: 'Coolvetica Regular';
+}
+
+.clv-rg-it-font {
+	font-family: 'Coolvetica Regular It';
+}
+
+.clv-cd-rg-font {
+	font-family: 'Coolvetica Condensed Regular';
+}
+
+.clv-cp-rg-font {
+	font-family: 'Coolvetica Compressed Regular';
+}
+
+.clv-cr-rg-font {
+	font-family: 'Coolvetica Crammed Regular';
+}
+
 
 body {
 	background-image: url(assets/img/back/sfondo_piume_Wix.webp);
 	background-size: contain;
 	background-attachment: fixed;
-	height: 5000px;
-}
-
-* {
-    font-family: 'Bebas Neue';
-    font-weight: normal;
-    font-style: normal;
 }
 
 nav {
 	/*position: fixed;*/
-	background-color: rgba(80, 34, 245, 0.979);
+	background-color: rgb(30, 124, 211);
 	font-size: 1.5vw;
+	color: white;
 }
 
 .rel {
@@ -48,6 +107,28 @@ li:last-child {
 	border: none;
 }
 
+
+.h-5000 {
+	margin-top: 50px;
+	height: 5000px;
+	padding: 50px 100px;
+}
+
+.who-container {
+	margin-top: 0px;
+}
+
+.who-container h1 {
+	font-size: 4vw;
+}
+
+.who-container .content {
+	font-size: 2.5vw;
+}
+
+/*.title-img {
+	content: url(assets/img/back/navbar.webp);
+}*/
 
 
 /* Media query standard trovate su internet */
