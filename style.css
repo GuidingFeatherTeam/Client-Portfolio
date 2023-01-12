@@ -124,6 +124,7 @@ li:last-child {
 
 .who-container .content {
 	font-size: 2.5vw;
+	padding-bottom: 50px;
 }
 
 /*.title-img {
@@ -132,7 +133,15 @@ li:last-child {
 
 .yt-trailer {
 	width: 68vw;
-	height: calc(68vw * calc(9/16));
+	padding-top: 50px;
+	aspect-ratio: 16/9;
+}
+
+.chop-img {
+	width: 15vw;
+	aspect-ratio: 1/1;
+	position: absolute;
+	right: 100px;
 }
 
 
