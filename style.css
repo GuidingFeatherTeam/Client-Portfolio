@@ -199,17 +199,13 @@ li:last-child {
 	}
 }
 
-/*@media screen and (max-width: 481px) {
-	h1, a {
-	  color: cyan;
-	}
-
-	nav {
-		font-size: 4.5vw;
+@media screen and (max-width: 769px) {
+	.chop-right {
+		display: none;
 	}
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
 	h1, a {
 	  color: yellowgreen;
 	}
@@ -217,4 +213,4 @@ li:last-child {
 	nav {
 		font-size: 5vw;
 	}
-}*/
+} */
