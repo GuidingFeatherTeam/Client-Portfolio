@@ -98,10 +98,8 @@ li:last-child {
 }
 
 
-.h-5000 {
+.main-content {
 	margin-top: 50px;
-	height: 5000px;
-	padding: 50px 100px;
 }
 
 .who-container {
