@@ -156,6 +156,14 @@ la linea di sotto */
 
 @media screen and (max-width: 1200px) {
 
+	#rich-chop {
+		right: 1%;
+	}
+
+	#classic-chop {
+		right: 1%;
+	}
+
 	nav {
 		font-size: 2.5vw;
 	}
