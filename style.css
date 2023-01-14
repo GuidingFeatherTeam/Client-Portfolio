@@ -107,6 +107,10 @@ li:last-child {
 	line-height: normal;
 }
 
+.unisciti {
+	padding: 0px 50px;
+}
+
 /*.title-img {
 	content: url(assets/img/back/navbar.webp);
 }*/
