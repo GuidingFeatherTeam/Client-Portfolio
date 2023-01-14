@@ -86,6 +86,7 @@ nav {
 	background-color: rgb(30, 124, 211);
 	font-size: 1.5vw;
 	color: white;
+	transition: top 0.3s;
 }
 
 li {
@@ -98,11 +99,11 @@ li:last-child {
 }
 
 
-.who-container h1 {
+.my-container h1 {
 	font-size: 4vw;
 }
 
-.who-container .content {
+.my-container .content {
 	font-size: 2.5vw;
 	line-height: normal;
 }
@@ -138,6 +139,22 @@ iframe {
 	width: 15vw;
 	aspect-ratio: 71/47;
 	position: absolute;
+}
+
+#sleep-chop {
+	top: 1000px
+}
+
+#cool-chop {
+	top: 500px;
+}
+
+#mammaMia-chop {
+	top: 1200px;
+}
+
+#classic-chop {
+	top: 2000px
 }
 
 .chop-right {
@@ -179,11 +196,11 @@ la linea di sotto */
 		font-size: 2.5vw;
 	}
 
-	.who-container h1 {
+	.my-container h1 {
 		font-size: 5vw;
 	}
 	
-	.who-container .content {
+	.my-container .content {
 		font-size: 3.5vw;
 	}
 
@@ -198,11 +215,11 @@ la linea di sotto */
 		font-size: 3vw;
 	}
 
-	.who-container h1 {
+	.my-container h1 {
 		font-size: 5.5vw;
 	}
 	
-	.who-container .content {
+	.my-container .content {
 		font-size: 4vw;
 	}
 }
@@ -213,11 +230,11 @@ la linea di sotto */
 		font-size: 25px;
 	}
 
-	.who-container h1 {
+	.my-container h1 {
 		font-size: 6.2vw;
 	}
 	
-	.who-container .content {
+	.my-container .content {
 		font-size: 4.7vw;
 	}
 }
@@ -227,7 +244,7 @@ la linea di sotto */
 		display: none;
 	}
 
-	.who-container .content{
+	.my-container .content{
 		padding-bottom: 25px;
 	}
 
@@ -238,7 +255,7 @@ la linea di sotto */
 
 @media screen and (max-width: 432px) {
 
-	.who-container .content{
+	.my-container .content{
 		padding-bottom: 10px;
 	}
 
