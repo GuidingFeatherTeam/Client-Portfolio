@@ -104,6 +104,7 @@ li:last-child {
 
 .who-container .content {
 	font-size: 2.5vw;
+	line-height: normal;
 }
 
 /*.title-img {
@@ -126,6 +127,12 @@ iframe {
 .chop-img {
 	width: 15vw;
 	aspect-ratio: 1/1;
+	position: absolute;
+}
+
+#music-chop {
+	width: 15vw;
+	aspect-ratio: 71/47;
 	position: absolute;
 }
 
