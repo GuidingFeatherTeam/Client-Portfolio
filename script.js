@@ -5,7 +5,8 @@ window.onscroll = () => {
     if (prevScrollPos > currentScrollPos) {
         document.getElementsByTagName("nav")[0].style.top = "0"
     } else {
-        document.getElementsByTagName("nav")[0].style.top = "-4.9rem"
+        document.getElementsByTagName("nav")[0].style.top = "-5rem"
     }
     prevScrollPos = currentScrollPos
 }
+

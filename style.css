@@ -50,6 +50,11 @@
     font-display: swap;
 }
 
+:root {
+	--bg-primary: rgb(30, 124, 211);
+	--bg-primary-rgb: rgb(30, 124, 211);
+}
+
 .bbn-font {
 	font-family: 'Bebas Neue';
 }
@@ -83,10 +88,18 @@ body {
 
 nav {
 	/*position: fixed;*/
-	background-color: rgb(30, 124, 211);
+	background-color: var(--bg-primary);
 	font-size: 1.5vw;
 	color: white;
 	transition: top 0.3s;
+}
+
+footer {
+	background-color: var(--bg-primary);
+}
+
+.my-shadow {
+	box-shadow: 0 -.5rem 1rem rgba(var(--bs-body-color-rgb),.15) !important;
 }
 
 li {
