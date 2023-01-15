@@ -77,7 +77,7 @@
 
 body {
 	background-image: url(assets/img/back/sfondo_piume_Wix.webp);
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
