@@ -221,6 +221,12 @@ la linea di sotto */
 		display: none;
 	}
 }
+@media screen and (max-width: 1820px) {
+
+	#classic-chop {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 990px) {
 	
