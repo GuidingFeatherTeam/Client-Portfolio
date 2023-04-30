@@ -188,6 +188,18 @@ la linea di sotto */
 
 /* Media query standard trovate su internet */
 
+@media screen and (min-width: 1200px) {
+	
+
+	.position-title {
+		font-size: 70px;
+	}
+	
+	.position-subtitle {
+		font-size: 60px;
+	}
+}
+
 @media screen and (max-width: 1820px) {
 
 	nav {
