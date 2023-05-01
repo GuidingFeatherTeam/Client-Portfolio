@@ -8,9 +8,10 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
     
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    - name: 📂 Upload FTP
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        server: ftp.guidingfeatherteam.com
-        username: guidingfeath857com
+        host: ftp.guidingfeatherteam.com
+        user: guidingfeath857com
         password: ${{ secrets.ftp_password }}
+        remoteDir: "httpdocs"
