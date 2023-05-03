@@ -229,6 +229,18 @@ la linea di sotto */
 		font-size: 3.5vw;
 	}
 
+	.content {
+		font-size: 1vw;
+	}
+
+	.position-title {
+		font-size: 1vw;
+	}
+	
+	.position-subtitle {
+		font-size: 4vw;
+	}
+
 	.chop-left {
 		display: none;
 	}
@@ -253,6 +265,18 @@ la linea di sotto */
 	.my-container .content {
 		font-size: 4vw;
 	}
+
+	.content {
+		font-size: 1vw;
+	}
+
+	.position-title {
+		font-size: 1vw;
+	}
+	
+	.position-subtitle {
+		font-size: 5vw;
+	}
 }
 
 @media screen and (max-width: 769px) {
@@ -268,6 +292,18 @@ la linea di sotto */
 	.my-container .content {
 		font-size: 4.7vw;
 	}
+
+	.content {
+		font-size: 1vw;
+	}
+
+	.position-title {
+		font-size: 1vw;
+	}
+	
+	.position-subtitle {
+		font-size: 5.5vw;
+	}
 }
 
 @media screen and (max-width: 769px) {
@@ -275,8 +311,24 @@ la linea di sotto */
 		display: none;
 	}
 
-	.my-container .content{
+	.my-container h1 {
+		font-size: 50px;
+	}
+
+	.my-container .content { 
 		padding-bottom: 25px;
+	}
+
+	.content {
+		font-size: 10px;
+	}
+
+	.position-title {
+		font-size: 25px;
+	}
+	
+	.position-subtitle {
+		font-size: 40px;
 	}
 
 	.yt-trailer {
@@ -286,8 +338,24 @@ la linea di sotto */
 
 @media screen and (max-width: 432px) {
 
-	.my-container .content{
+	.my-container h1 {
+		font-size: 40px;
+	}
+
+	.my-container .content {
 		padding-bottom: 10px;
+	}
+
+	.content {
+		font-size: 10px;
+	}
+
+	.position-title {
+		font-size: 40px;
+	}
+	
+	.position-subtitle {
+		font-size: 30px;
 	}
 
 	.yt-trailer {
