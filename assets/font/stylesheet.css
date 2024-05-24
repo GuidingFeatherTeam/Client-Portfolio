@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Coolvetica Regular It';
-    src: url('assets/font/coolvetica\ rg\ it.otf') format('opentype');
+    src: url('../font/coolvetica\ rg\ it.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@
 
 @font-face {
     font-family: 'Coolvetica Condensed Regular';
-    src: url('assets/font/coolvetica\ condensed\ rg.otf') format('opentype');
+    src: url('../font/coolvetica\ condensed\ rg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -33,7 +33,7 @@
 
 @font-face {
     font-family: 'Coolvetica Compressed Regular';
-    src: url('assets/font/coolvetica\ compressed\ hv.otf') format('opentype');
+    src: url('../font/coolvetica\ compressed\ hv.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: 'Coolvetica Crammed Regular';
-    src: url('assets/font/coolvetica\ crammed\ rg.otf') format('opentype');
+    src: url('../font/coolvetica\ crammed\ rg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

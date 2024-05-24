@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Coolvetica Regular';
-    src: url('assets/font/coolvetica\ rg.otf') format('opentype');
+    src: url('assets/font/coolvetica rg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'Coolvetica Regular It';
-    src: url('assets/font/coolvetica\ rg\ it.otf') format('opentype');
+    src: url('assets/font/coolvetica rg it.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'Coolvetica Condensed Regular';
-    src: url('assets/font/coolvetica\ condensed\ rg.otf') format('opentype');
+    src: url('assets/font/coolvetica condensed rg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
     font-family: 'Coolvetica Compressed Regular';
-    src: url('assets/font/coolvetica\ compressed\ hv.otf') format('opentype');
+    src: url('assets/font/coolvetica compressed hv.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
     font-family: 'Coolvetica Crammed Regular';
-    src: url('assets/font/coolvetica\ crammed\ rg.otf') format('opentype');
+    src: url('assets/font/coolvetica crammed rg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -81,7 +81,7 @@
 
 
 body {
-	background-image: url(assets/img/back/sfondo_piume_Wix.webp);
+	background-image: url("assets/img/back/sfondo_piume_Wix.webp");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -96,10 +96,6 @@ nav {
 
 footer {
 	background-color: var(--bg-primary);
-}
-
-.my-shadow {
-	box-shadow: 0 -.5rem 1rem rgba(var(--bs-body-color-rgb),.15) !important;
 }
 
 li {
@@ -189,12 +185,12 @@ la linea di sotto */
 /* Media query standard trovate su internet */
 
 @media screen and (min-width: 1200px) {
-	
+
 
 	.position-title {
 		font-size: 70px;
 	}
-	
+
 	.position-subtitle {
 		font-size: 60px;
 	}
@@ -224,7 +220,7 @@ la linea di sotto */
 	.my-container h1 {
 		font-size: 5vw;
 	}
-	
+
 	.my-container .content {
 		font-size: 3.5vw;
 	}
@@ -236,7 +232,7 @@ la linea di sotto */
 	.position-title {
 		font-size: 1vw;
 	}
-	
+
 	.position-subtitle {
 		font-size: 4vw;
 	}
@@ -253,7 +249,7 @@ la linea di sotto */
 }
 
 @media screen and (max-width: 990px) {
-	
+
 	nav {
 		font-size: 3vw;
 	}
@@ -261,7 +257,7 @@ la linea di sotto */
 	.my-container h1 {
 		font-size: 5.5vw;
 	}
-	
+
 	.my-container .content {
 		font-size: 4vw;
 	}
@@ -273,7 +269,7 @@ la linea di sotto */
 	.position-title {
 		font-size: 1vw;
 	}
-	
+
 	.position-subtitle {
 		font-size: 5vw;
 	}
@@ -288,7 +284,7 @@ la linea di sotto */
 	.my-container h1 {
 		font-size: 6.2vw;
 	}
-	
+
 	.my-container .content {
 		font-size: 4.7vw;
 	}
@@ -300,7 +296,7 @@ la linea di sotto */
 	.position-title {
 		font-size: 1vw;
 	}
-	
+
 	.position-subtitle {
 		font-size: 5.5vw;
 	}
@@ -315,7 +311,7 @@ la linea di sotto */
 		font-size: 50px;
 	}
 
-	.my-container .content { 
+	.my-container .content {
 		padding-bottom: 25px;
 	}
 
@@ -326,7 +322,7 @@ la linea di sotto */
 	.position-title {
 		font-size: 25px;
 	}
-	
+
 	.position-subtitle {
 		font-size: 40px;
 	}
@@ -353,7 +349,7 @@ la linea di sotto */
 	.position-title {
 		font-size: 40px;
 	}
-	
+
 	.position-subtitle {
 		font-size: 30px;
 	}
